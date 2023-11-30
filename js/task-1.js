@@ -23,3 +23,26 @@ const fruits = ["Яблуко", "Груша", "Апельсин"];
 const shoppingCart = fruits;
 shoppingCart.push("Банан");
 // console.log(fruits.length); // 4
+
+//////////////////////////////////
+
+let arr = [];
+
+// console.log(fillArray(2, 10));
+
+function fillArray(min, max) {
+    for (let i = min; i <= max; i += 2) {
+      return arr.push(i)
+    }
+}
+
+/////////////////////////////////////
+
+const password = 'true';
+const myKey = password;
+
+const obj = {
+  [myKey]: false,
+};
+
+// console.log(obj);
